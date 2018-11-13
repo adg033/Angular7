@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'iam-pie',
   templateUrl: './pie.component.html',
-  styleUrls: ['./pie.component.css']
+  styles: ['footer {border-top: 1px solid}',]
 })
 export class PieComponent implements OnInit {
 
@@ -14,7 +14,7 @@ export class PieComponent implements OnInit {
 
   ngOnInit() {
     this.lugar = 'Madrid'
-    this.empresa = 'IAM'
+    this.empresa = 'ATRIUM'
   }
 
 }

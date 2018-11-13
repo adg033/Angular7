@@ -6,11 +6,14 @@ import { MenuComponent } from './menu/menu.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [CabeceraComponent, PieComponent, MenuComponent],
+  declarations: [
+    CabeceraComponent, 
+    PieComponent, 
+    MenuComponent],
   imports: [
     CommonModule,
     RouterModule
-  ], 
+  ],
   exports: [
     CabeceraComponent,
     PieComponent,
