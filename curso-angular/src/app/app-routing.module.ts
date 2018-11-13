@@ -9,6 +9,7 @@ const routes: Routes = [
   /* { path: 'tareas', component: TareasComponent }, */
   { path: 'tareas', loadChildren: './tareas/tareas.module#TareasModule' },
  /*  { path: 'about', component: AboutComponent}, */
+  { path: 'contactos', loadChildren: './contactos/contactos.module#ContactosModule' },
   { path: 'about', loadChildren: './about/about.module#AboutModule' },
   { path: '', pathMatch: 'full', redirectTo: 'home' },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
